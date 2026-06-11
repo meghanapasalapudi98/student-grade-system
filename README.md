@@ -10,7 +10,7 @@ git clone https://github.com/meghanapasalapudi98/student-grade-system.git
 cd student-grade-system
 .\mvnw spring-boot:run
 
-Runs on http://localhost:8081
+Runs on http://localhost:8081/students
 
 ## Endpoints
 
@@ -26,7 +26,7 @@ POST /students
 
 Returns: { "id": 1, "name": "John", "marks": 88, "grade": "B" }
 
-Grades: 90+ = A, 80+ = B, 70+ = C, 60+ = D, below 60 = F
+Grades: 90+=A, 80+=B, 70+=C, 60+=D, below 60=F
 
 ## H2 Console
 
